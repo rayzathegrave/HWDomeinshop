@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,300&display=swap');
+
+/*////////////////////////////////////////////////////////////////////////
+Table of Contents:
+    1. Global Styles
+    2. Typografie
+    3. Areas
+        3.1 Header
+        3.2 Testimonial
+        3.3 Support
+        3.4 Faq
+        3.5 Footer
+////////////////////////////////////////////////////////////////////////*/
+/*grijs #899CA0*/
+/*donkergroen #1C2B32*/
+
+
+/*////////////////////////
+    1. Global Styles
+////////////////////////*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*////////////////////////
+    2. Typography
+////////////////////////*/
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #1C2B32;
+}
+
+a:visited {
+    color: #899CA0;
+}
+
+a:link {
+    color: #899CA0;
+}
+
+/*////////////////////////
+    3. Areas
+////////////////////////*/
+
+.availability-check {
+    border-radius: 0 1000px 1000px 0;
+    margin: 0;
+    border: solid 2px;
+    padding: 20px;
+    background-color: #1C2B32;
+    color: white;
+    border-color: #1C2B32;
+}
+
+input:focus {
+    outline: #1C2B32;
+}
+
+input::placeholder {
+    color: #1C2B32;
+    font-family: 'Poppins', sans-serif;
+}
+
+input {
+    border-radius: 1000px 0 0 1000px;
+    margin: -10px;
+    border: solid 2px;
+    padding: 20px;
+    background-color: transparent;
+    border-color: #1C2B32;
+
+
+}
+
+/*///////////// 3.1 Header /////////////*/
+header {
+    text-align: center;
+    background-image: url("../assets/images/mountains.jpg");
+    background-size: cover;
+    padding: 150px 0 400px
+
+}
+
+header h1 {
+    font-weight: 700;
+    font-size: 80px;
+    margin: 1% 0;
+}
+
+header p {
+    font-size: 20px;
+    margin: 2% 0;
+}
+
+h2 {
+    text-align: center;
+    margin: 4% 0 4% 0;
+}
+
+.bel-foto {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: 50%;
+    border-radius: 20px;
+}
+
+.contact-button {
+    border-radius: 1000px 1000px 1000px 1000px;
+    margin: 0;
+    border: solid 2px;
+    padding: 20px;
+    background-color: #1C2B32;
+    color: white;
+    border-color: #1C2B32;
+}
+
+main p {
+    font-size: 15px;
+    margin: 2% 0;
+}
+
+.idee {
+    margin: 0 0 0 310PX;
+}
+
+.tini summary {
+    margin: 20px 0 0 310PX;
+}
+
+.tini .content {
+    margin: 0 0 0 310px;
+    color: #1C2B32
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.boxtwee {
+    width: 568px;
+    height: 260px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 2% auto;
+}
+
+
+
+/*///////////// 3.2 Testimonial /////////////*/
+
+
+/*///////////// 3.3 Support /////////////*/
+
+
+/*///////////// 3.4 Faq /////////////*/
+
+
+/*///////////// 3.5 Footer /////////////*/
+
+
+
